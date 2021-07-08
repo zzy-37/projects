@@ -1,5 +1,5 @@
 #!/bin/sh
-for file in $(find -name "*.md"); do                                                                                                              0:21:33
+for file in $(find -name "*.md"); do
     cat $file
     read var
     if [[ -n $var ]]
